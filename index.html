@@ -27,30 +27,31 @@
         Rentrez votre code postal et Villakod vous donnera la ville!
       </p>
       <section class="container col-12 col-md-5 text-center">
-        <form action="submit" class="bgform">
+        <form role="search" action="" class="bgform">
           <div class="row">
             <input
-              type="string"
+              id="codepostal"
+              maxlength="5"
+              type="text"
               class="searchbar col m-3"
               placeholder="Code postal"
               aria-label="Code postal"
               aria-describedby="basic-addon2"
-              name="q"
             />
-            <button type="button" class="btn col-auto m-auto">
+            <button type="submit" class="btn col-auto m-auto">
               <img src="ressources/search.svg" alt="icône de loupe" class="img-fluid" />
             </button>
           </div>
           <div class="row">
             <input
+              id="nomville"
               type="text"
               class="searchbar col m-3"
               placeholder="Nom de la ville"
               aria-label="Nom de la ville"
               aria-describedby="basic-addon2"
-              name="q"
             />
-            <button type="button" class="btn col-auto m-auto">
+            <button type="submit" class="btn col-auto m-auto">
               <img src="ressources/search.svg" alt="icône de loupe" class="img-fluid" />
             </button>
           </div>
@@ -60,7 +61,7 @@
     <section id="ville" class="row justify-content-center mx-3 mt-5">
       <p class="col-12 text-center">La ville que vous cherchez est :</p>
       <img class="col-2" src="ressources/building.svg" alt="icône de bâtiment" />
-      <p class="résultat col-8"></p>
+      <p class="résultat col-8 text-center"></p>
     </section>
   </body>
   <script

@@ -1,0 +1,6 @@
+curl  'https://geo.api.gouv.fr/communes?codePostal=31800' HTTP/1.1
+
+###
+
+curl 'https://geo.api.gouv.fr/communes?nom=Clermont-Ferrand' HTTP/1.1
+

@@ -13,12 +13,14 @@ p {
   background-color: #3ec059;
   border-radius: 20px;
   padding: 20px;
+  box-shadow: 0 0 2em rgb(121, 121, 121);
+  margin-top: 20px;
 }
 
 .searchbar {
   background-color: #a1ef9e;
   border-radius: 20px;
-  border: 1px solid #727171;
+  border: 2px solid #727171;
   padding: 5px 15px;
   font-size: 16px;
 }
@@ -26,7 +28,7 @@ p {
 .btn {
   background-color: #a1ef9e;
   border-radius: 20px;
-  border: 1px solid #727171;
+  border: 2px solid #727171;
 }
 
 .btn:hover {
