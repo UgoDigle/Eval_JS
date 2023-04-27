@@ -1,66 +1,34 @@
-h1 {
+body {
+  height: 100vh;
+  overflow: hidden;
+  background: linear-gradient(to bottom, rgb(172, 215, 255), #fff);
   font-family: "Roboto", sans-serif;
-  font-weight: bold;
-  color: #3ec059;
-  text-decoration: underline;
 }
 
-p {
-  font-family: "Roboto", sans-serif;
+h1 {
+  text-decoration: underline;
 }
 
 .bgform {
   background-color: #3ec059;
-  border-radius: 20px;
-  padding: 20px;
-  box-shadow: 0 0 2em rgb(121, 121, 121);
   margin-top: 20px;
+  border: solid 2px black;
 }
 
-.searchbar {
-  background-color: #a1ef9e;
-  border-radius: 20px;
-  border: 2px solid #727171;
-  padding: 5px 15px;
-  font-size: 16px;
-}
-
-.btn {
-  background-color: #a1ef9e;
-  border-radius: 20px;
-  border: 2px solid #727171;
-}
-
-.btn:hover {
-  background-color: #3ec059;
-  border: 2px solid white;
-}
-
-.btn:hover img {
-  filter: invert(100%);
-}
-
+.searchbar,
 .résultat {
   background-color: #a1ef9e;
-  border-radius: 25px;
-  border: 2px solid #3ec059;
-  font-size: 16px;
-}
-
-#ville {
-  min-height: 100px;
+  border-radius: 20px;
+  border: 2px solid #727171;
 }
 
 select {
-  font-size: 16px;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 20px;
   background-color: #f5f5f5;
   color: #000000;
   font-weight: bold;
   border: 1px solid #ccc;
-  width: 200px;
-  height: 40px;
   margin-bottom: 10px;
   visibility: hidden;
 }
